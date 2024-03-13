@@ -40,3 +40,7 @@
   width: 360px;
   border: none;
 }
+
+.form-button:hover {
+  background-color: #6c8cff;
+}

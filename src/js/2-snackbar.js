@@ -18,12 +18,14 @@ function getValues(event) {
       iziToast.success({
         title: 'OK',
         message: `✅ Fulfilled promise in ${delay} ms`,
+        position: 'topRight',
       });
     })
     .catch(() => {
       iziToast.error({
         title: 'Error',
         message: `❌ Rejected promise in ${delay} ms`,
+        position: 'topRight',
       });
     });
 

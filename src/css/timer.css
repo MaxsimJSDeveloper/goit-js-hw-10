@@ -25,6 +25,10 @@
   border: 1px solid #808080;
 }
 
+.start-button:hover {
+  background-color: #6c8cff;
+}
+
 .start-button-dis {
   background-color: #cfcfcf;
   color: #989898;

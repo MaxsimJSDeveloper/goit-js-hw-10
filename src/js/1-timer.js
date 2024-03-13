@@ -46,6 +46,7 @@ function startTimer(futureTime) {
     iziToast.success({
       title: 'OK',
       message: 'Successfully inserted record!',
+      position: 'topRight',
     });
     clearTimeout(timerId); // Очистити ідентифікатор таймера при закінченні таймера
     return;
@@ -68,6 +69,7 @@ function currentDifferenceDate(selectedDate) {
     return iziToast.error({
       title: 'Error',
       message: 'Please choose a date in the future',
+      position: 'topRight',
     });
   }
 
