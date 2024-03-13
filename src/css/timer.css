@@ -16,13 +16,18 @@
   padding: 8px 16px;
   width: 75px;
   height: 40px;
-  background-color: #cfcfcf;
+  background-color: #4e75ff;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #989898;
+  color: #fff;
   border: 1px solid #808080;
+}
+
+.start-button-dis {
+  background-color: #cfcfcf;
+  color: #989898;
 }
 
 .timer {
